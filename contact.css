@@ -1,0 +1,42 @@
+/*Styling for Form*/
+.form{
+    flex: 1; 
+    padding: 21px;
+    border-radius: 7px;
+    background-color: #fff;
+    box-shadow: 0 0 11px; 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/*Styling for Inside of Form*/
+label,input,textarea{
+    margin-bottom: 10px;
+}
+input,textarea{
+    border: 1px solid rgb(74, 150, 194);
+    border-radius: 8px;
+    padding: 6px;
+    width: 100%;
+}
+input[type="submit"]{
+    color: #fff;
+    padding: 11px;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+}
+input[type="submit"]:hover{
+    background-color: bisque;
+}
+label, input, textarea{
+    display: block;
+    margin-bottom: 9px;
+}
+/*Styling for Checkbox*/
+input[type=checkbox] {
+    accent-color: black;
+}
